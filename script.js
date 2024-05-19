@@ -13,18 +13,22 @@ buttons.forEach((button) => {
         if(event.target.id === "aqua")
             {
                 document.querySelector('body').style.backgroundColor = "aquamarine";
+                document.querySelector('#aqua').style.border = 'solid 1px black';
             }
         else if(event.target.id === "white")
             {
                 document.querySelector('body').style.backgroundColor = "white";
+                document.querySelector('#white').style.border = 'solid 1px black';
             }
         else if(event.target.id === "gray")
             {
                 document.querySelector('body').style.backgroundColor = "gray";
+                document.querySelector('#gray').style.border = 'solid 1px black';
             }
         else if(event.target.id === "red")
             {
                 document.querySelector('body').style.backgroundColor = "red";
+                document.querySelector('#red').style.border = 'solid 1px black';
             }
     });
 });
